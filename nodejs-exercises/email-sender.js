@@ -4,8 +4,8 @@ async function sendEmail() {
   let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'your_email@gmail.com',       // استبدلها بإيميلك
-      pass: 'your_app_password',           // كلمة المرور أو كلمة مرور التطبيق
+      user: 'your_email@gmail.com',       
+      pass: 'your_app_password',           
     }
   });
 
